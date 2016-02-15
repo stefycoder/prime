@@ -7,3 +7,24 @@ body{
 .frase{
 	font-family:"Open Sans";
 }
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-white{
+ color: white;
+}
+.ref a{
+	text-decoration: none;
+}
+nav ul{
+	list-style-type: none;
+}
+i{
+	color: #24A2AB;
+}
