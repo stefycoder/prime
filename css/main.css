@@ -1,9 +1,150 @@
 body{
 	width:100%;
-	
 	margin: 0;
-
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+.banner{
+	background: url(../img/background/hero.jpg)no-repeat;
+	background-size: 100% 132%;
+	height: 100vh;
+}
+.opacidad{
+	background-color:rgba(0,0,0,0.5);
+	height: 100vh;
+}
+.nombre h1{
+	padding-top: 2%;
+	padding-left: 15%;
+	font-weight: bold;
+	font-size: 2rem;
+}
+.nombre i{
+	color:black;
+}
+.banner nav li{
+	position: relative;
+	float: left;
+	color: #BEBEBE;
+	margin: 0;
+	padding-top: 3%;
+	padding-left: 5%;
+}
+.banner nav li:hover a{
+	color: #24A2AB;
+	text-decoration: none;
+}
+.banner nav a{
+	padding: 2% 10%;	
+	color: #BEBEBE;
+	font-weight: bold;
+}
+.texto1 h1{
+	padding-top: 10.5%;
+	padding-bottom: 1%;
+	font-size: 4.8rem;
+	font-weight: lighter;
+	padding-left: 2%;
+	padding-right: 3%;
+}
+.texto1 p{
+	padding-bottom: 5%;
+	padding-left: 21%;
+	padding-right: 21%;
+}
+.click a{
+	padding: 10% 15%;
+	color: white;
+	background-color:rgba(0,0,0,0.5);
+}
+.click a:hover{
+	background: #2D3139;
+	text-decoration:none;
+}
+.texto2 i{
+	font-size: 5rem;
+	margin-top: 10rem;
+}
+.texto2 p{
+	color:#B5B5B5;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.more{
+	background:#F4F4F4 url(../img/laptop-features.png)no-repeat;
+	background-size: 80% 70%;
+	height: 50vh;
+	margin-bottom: 2rem;
+}
+.texto3{
+	margin-top: 4rem;
+}
+.texto3 i{
+	font-size: 4rem;
+	margin-top: 1rem;
+}
+.texto3 p{
+	color:#B5B5B5;
+	font-size: 1.3rem;
+}
+.texto3 h5{
+	font-weight: bold;
+}
+.portfolio{
+	background: #F4F4F4;
+}
+.folio nav li{
+	position: relative;
+	float: left;
+	background: white;
+	margin: 0.5%;
+	font-weight: bold;
+	padding: 1% 1%;
+	left: 30%;
+}
+.folio nav li:hover{
+	background-color: #009DA8;
+	text-decoration: none;
+}
+.folio nav li:hover a{
+	color: white;
+}
+.folio nav a{	
+	color: black;
+	text-decoration: none;
+}
+.imagenes{
+	background-color: white;
+	padding: 1%;
+	border:1px solid white;
+	margin-bottom: 5%;
+}
+.imagenes:hover img {
+               -moz-transform: scale(1);
+               -webkit-transform: scale(1);
+               -o-transform: scale(1,2));
+               -ms-transform: scale(1);
+               transform: scale(1.05);            
+}                              
+.imagenes p{
+	color: #B5B5B5;
+}
+.imagenes a{
+	color: black;
+	text-decoration: none; 
+}
+.oscuro{
+	padding: 2% 4%;
+	color: white;
+	background: #2D3139;
+}
+.oscuro:hover{
+	background-color:rgba(0,0,0,0.5);
+	text-decoration:none;
+} 
 .skycryper{
 	background: url(../img/background/city.jpg);
 	background-size: cover;
@@ -129,12 +270,15 @@ a{
 .chic{
 	text-align: center;
 }
-.col-6{
+.ap{
 	text-align: center;
 	width: 55%;
     margin: auto;
 }
-
+@media (max-width: 780px){
+	.txt{
+		display: inline;
+}
 
 
 
