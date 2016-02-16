@@ -338,6 +338,10 @@ body{
 	color: #303B45;
 	margin:1%;
 }
+a{
+	color:white;
+	text-decoration: none;
+}
 .finish{
 	padding: 2%;
 	background-color: #222222;
